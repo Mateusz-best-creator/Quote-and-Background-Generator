@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background: linear-gradient(89deg, #FF5EDF 0%, #04c8de 100%);
+    transition: 0.5s ease-in-out
+}
+
+.quote-box {
+    width: auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fa-quote-left {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.text {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.small-quote {
+    font-size: 2rem;
+}
+
+.large-quote {
+    font-size: 1.7rem;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.author-name {
+    font-size: 1.7rem;
+}
+
+.buttons-element {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+button {
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(33, 136, 177, 0.8);
+}
+
+#tweet-quote2, #tumblr {
+    width: 50px;
+}
+
+h3 {
+    position: absolute;
+    bottom: 1rem;
+    color: white;
+}
+
+@media screen and (max-width: 1000px){
+    .quote-box {
+        margin: auto 20px;
+    }
+    
+    .text-content {
+        font-size: 1.5rem;
+    }
+}
